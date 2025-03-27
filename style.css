@@ -81,7 +81,7 @@ html{
     }
 }
 .navbar a:hover,.navbar a.active{
-    color: #ff00ee;
+    color: #0ef;
 }
 section{
     padding: 10rem 9% 2rem;
@@ -117,8 +117,8 @@ section{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px #ff00ee;
-    background: linear-gradient(#ff00ee,#ff00ee);
+    -webkit-text-stroke: .7px #0ef;
+    background: linear-gradient(#0ef,#0ef);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -33rem 0;
@@ -143,7 +143,7 @@ section{
     top: 0;
     height: 100%;
     width: 0;
-    border-right: 2px solid #ff00ee;
+    border-right: 2px solid #0ef;
     transform: translateY(-100px);
     opacity: 0;
     animation: CursorSlide 6s linear infinite,
@@ -227,6 +227,7 @@ section{
     position: relative;
     overflow: hidden;
     z-index: 1;
+    
 }
 .btn::before{
     content: "";
@@ -236,7 +237,7 @@ section{
     height: 300%;
     width: 100%;
     background: linear-gradient(
-        #0f0a0a,#ff00ee,#0f0a0a,#ff00ee
+        #0f0a0a,#0ef,#0f0a0a,#0ef
     );
     z-index: -1;
     transition: .5s ease;
@@ -283,7 +284,7 @@ section{
     height: 300%;
     width: 100%;
     background: linear-gradient(
-        #0f0a0a,#ff00ee,#0f0a0a,#ff00ee
+        #0f0a0a,#0ef,#0f0a0a,#0ef
     );
     z-index: -1;
     transition: .5s ease;
@@ -297,7 +298,7 @@ i:hover::after{
     background: rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #ff00ee);
+    filter: drop-shadow(0 0 8rem #0ef);
     animation: Scale 1s ease forwards;
     scale: 0;
     animation-delay: 2s;
@@ -345,7 +346,7 @@ section.start-animation .title{
     }
 }
 .title span{
-    color: #ff00ee;
+    color: #0ef;
 }
 .about img{
     height: 25rem;
@@ -353,7 +354,7 @@ section.start-animation .title{
     background: rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #ff00ee);
+    filter: drop-shadow(0 0 8rem #0ef);
     scale: 0;
 }
 section.start-animation .aboutImg{
@@ -464,14 +465,14 @@ section.start-animation .column h2{
 }
 
 .box{
-    border-left: .2rem solid #ff00ee;
+    border-left: .2rem solid #0ef;
 }
 .education-content {
     padding-left: 1.9rem;
 }
 .education-content .content{
     padding: 1.5rem;
-    border: .2rem solid #ff00ee;
+    border: .2rem solid #0ef;
     background: rgba(255,255,255,.1);
     border-radius: .5rem;
     margin-bottom: 2rem;
@@ -485,14 +486,14 @@ section.start-animation .column h2{
     height: 1.4rem;
     width: 1.4rem;
     border-radius: 50%;
-    background: #ff00ee;
+    background: #0ef;
 }
 .content .year{
     font-size: 1.5rem;
-    color: #ff00ee;
+    color: #0ef;
 }
 .content .year i{
-    color: #ff00ee;
+    color: #0ef;
     font-size: 1.5rem;
     margin-left: .5rem;
 }
@@ -570,7 +571,7 @@ section.start-animation .skill-box2{
 .bar{
     position: absolute;
     height: 100%;
-    background: #ff00ee;
+    background: #0ef;
 }
 .bar-1{
     width: 90%;
@@ -616,7 +617,7 @@ section.start-animation input:nth-child(2){
     border: .2rem solid rgba(255,255,255,.3);
     outline: none;
     backdrop-filter: blur(10px);
-    filter: drop-shadow(0 0 100px #ff00ee);
+    filter: drop-shadow(0 0 100px #0ef);
     border-radius: .8rem;
     gap: 2.5rem;
     margin: .7rem 0;
@@ -637,11 +638,11 @@ input::placeholder{
 }
 input:focus,
 input:valid{
-    border: .2rem solid #ff00ee;
+    border: .2rem solid #0ef;
 }
 textarea:focus,
 textarea:valid{
-    border: .2rem solid #ff00ee;
+    border: .2rem solid #0ef;
 }
 textarea{
     resize: none;
@@ -657,9 +658,9 @@ section.start-animation .btn{
     animation-delay: 1.4s;
 }
 .contact .btn:hover{
-    background: #ff00ee;
-    box-shadow: 0 0 .3rem #ff00ee,
-    0 0 .7rem #ff00ee;
+    background: #0ef;
+    box-shadow: 0 0 .3rem #0ef,
+    0 0 .7rem #0ef;
 }
 /* footer */
 
@@ -679,7 +680,7 @@ footer i{
     justify-content: center;
     align-items: center;
     padding: .8rem; 
-    background: #ff00ee;
+    background: #0ef;
     color: #0f0a0a;
     border-radius: 50%;
     font-size: 2.4rem;
